@@ -1,0 +1,403 @@
+[
+    {
+		"model": "auth.group",
+		"pk": 1,
+		"fields": { "name": "test_group", "permissions": [] }
+    },
+    {
+        "model": "auth.User",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$100000$V5AkKAytlLRt$2CnP8lZzvl+c1DigFGe8pjm3pWkfcPiFXi/xubvtV8E=",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "Admin",
+            "email": "Account",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2019-02-27T14:19:00Z",
+			"groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$100000$V5AkKAytlLRt$2CnP8lZzvl+c1DigFGe8pjm3pWkfcPiFXi/xubvtV8E=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "test",
+            "first_name": "John",
+            "last_name": "Doe",
+            "email": "test@mail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2018-03-01T09:07:43Z",
+			"groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 3,
+        "fields": {
+            "password": "!sBjyhFwefQUfYRkZgcOGlWfsUQ4CxOGZ0Ua2SQa8",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "ldap_user",
+            "first_name": "John",
+            "last_name": "Doe",
+            "email": "test@mail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-02-28T09:07:43Z",
+			"groups": [1],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 4,
+        "fields": {
+            "password": "!sBjyhFwefQUfYRkZgcOGlWfsUQ4CxOGZ0Ua2SQa8",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "ldap_user2",
+            "first_name": "John",
+            "last_name": "Doe",
+            "email": "test@mail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-02-28T09:07:43Z",
+			"groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$100000$V5AkKAytlLRt$2CnP8lZzvl+c1DigFGe8pjm3pWkfcPiFXi/xubvtV8E=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "test_vacations",
+            "first_name": "John",
+            "last_name": "Doe",
+            "email": "test@mail.com",
+            "is_staff": false,
+            "is_active": false,
+            "date_joined": "2018-03-01T09:07:43Z",
+			"groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "Chat.chatroom",
+        "pk": "d65d0970-1933-11eb-adc1-0242ac120002",
+        "fields": {
+            "name": "Test Chat 1"
+        }
+    },
+    {
+        "model": "Chat.chatroom",
+        "pk": "36323c8f-47d1-4023-85d3-ad047d0275f8",
+        "fields": {
+            "name": "Test Chat 2"
+        }
+    },
+    {
+        "model": "Chat.chatroom",
+        "pk": "dc56ad05-90db-4dcd-9739-db2bee4b315f",
+        "fields": {
+            "name": "Test Chat 3"
+        }
+    },
+    {
+        "model": "Chat.message",
+        "pk": "3ec95364-1395-49fb-9965-dff9b450ef1b",
+        "fields": {
+            "chat_room": "d65d0970-1933-11eb-adc1-0242ac120002",
+            "sender": 4,
+            "text": "Message 1",
+            "date": "2020-10-29T12:00:00.000Z"
+        }
+    },
+    {
+        "model": "Chat.message",
+        "pk": "0169b6bf-6ea5-4b3e-9d29-bd1e86592c96",
+        "fields": {
+            "chat_room": "d65d0970-1933-11eb-adc1-0242ac120002",
+            "sender": 4,
+            "text": "Message 2",
+            "date": "2020-10-29T13:00:00.000Z"
+        }
+    },
+    {
+        "model": "Chat.message",
+        "pk": "a5dd1def-197b-4cf8-a00b-cf918ede6910",
+        "fields": {
+            "chat_room": "d65d0970-1933-11eb-adc1-0242ac120002",
+            "sender": 4,
+            "text": "Message 3",
+            "date": "2020-10-29T14:00:00.000Z"
+        }
+    },
+    {
+        "model": "Chat.message",
+        "pk": "1c170732-3771-41f3-be18-81fb1a2e0637",
+        "fields": {
+            "chat_room": "d65d0970-1933-11eb-adc1-0242ac120002",
+            "sender": 4,
+            "text": "Message 4",
+            "date": "2020-10-29T15:00:00.000Z"
+        }
+    },
+    {
+        "model": "Chat.message",
+        "pk": "39bf8ab1-6655-48ad-9a4e-0a4567c3f72e",
+        "fields": {
+            "chat_room": "d65d0970-1933-11eb-adc1-0242ac120002",
+            "sender": 4,
+            "text": "Message 5",
+            "date": "2020-10-29T16:00:00.000Z"
+        }
+    },
+    {
+        "model": "Chat.message",
+        "pk": "c094682e-cb28-4eb5-8c11-64bbe176d007",
+        "fields": {
+            "chat_room": "d65d0970-1933-11eb-adc1-0242ac120002",
+            "sender": 5,
+            "text": "Message 6",
+            "date": "2020-10-30T12:00:00.000Z"
+        }
+    },
+    {
+        "model": "Chat.message",
+        "pk": "a67f2881-3cf0-4120-b0ff-77e7d2e28057",
+        "fields": {
+            "chat_room": "d65d0970-1933-11eb-adc1-0242ac120002",
+            "sender": 5,
+            "text": "Message 7",
+            "date": "2020-10-30T13:00:00.000Z"
+        }
+    },
+    {
+        "model": "Chat.message",
+        "pk": "34173978-cd4b-40bd-8627-55862bd36b90",
+        "fields": {
+            "chat_room": "d65d0970-1933-11eb-adc1-0242ac120002",
+            "sender": 5,
+            "text": "Message 8",
+            "date": "2020-10-30T14:00:00.000Z"
+        }
+    },
+    {
+        "model": "Chat.message",
+        "pk": "d3b2066c-c573-4639-8799-c6e308aa5ce7",
+        "fields": {
+            "chat_room": "d65d0970-1933-11eb-adc1-0242ac120002",
+            "sender": 5,
+            "text": "Message 9",
+            "date": "2020-10-30T15:00:00.000Z"
+        }
+    },
+    {
+        "model": "Chat.message",
+        "pk": "51200695-f233-4cb4-bd92-130b8553e416",
+        "fields": {
+            "chat_room": "d65d0970-1933-11eb-adc1-0242ac120002",
+            "sender": 5,
+            "text": "Message 10",
+            "date": "2020-10-30T16:00:00.000Z"
+        }
+    },
+    {
+        "model": "Chat.message",
+        "pk": "688b4639-5bb6-4ab8-8ae5-4368b5f42642",
+        "fields": {
+            "chat_room": "dc56ad05-90db-4dcd-9739-db2bee4b315f",
+            "sender": 5,
+            "text": "Message 1",
+            "date": "2020-10-20T16:00:00.000Z"
+        }
+    },
+    {
+        "model": "Chat.participant",
+        "pk": 1,
+        "fields": {
+            "person": 3,
+            "chat_room": "d65d0970-1933-11eb-adc1-0242ac120002"
+        }
+    },
+    {
+        "model": "Chat.participant",
+        "pk": 2,
+        "fields": {
+            "person": 4,
+            "chat_room": "d65d0970-1933-11eb-adc1-0242ac120002"
+        }
+    },
+    {
+        "model": "Chat.participant",
+        "pk": 3,
+        "fields": {
+            "person": 5,
+            "chat_room": "d65d0970-1933-11eb-adc1-0242ac120002"
+        }
+    },
+    {
+        "model": "Chat.participant",
+        "pk": 4,
+        "fields": {
+            "person": 3,
+            "chat_room": "36323c8f-47d1-4023-85d3-ad047d0275f8"
+        }
+    },
+    {
+        "model": "Chat.participant",
+        "pk": 5,
+        "fields": {
+            "person": 3,
+            "chat_room": "dc56ad05-90db-4dcd-9739-db2bee4b315f"
+        }
+    },
+    {
+        "model": "Chat.participant",
+        "pk": 6,
+        "fields": {
+            "person": 5,
+            "chat_room": "dc56ad05-90db-4dcd-9739-db2bee4b315f"
+        }
+    },
+    {
+        "model": "Chat.unreadmessage",
+        "pk": "e0aea08a-b73c-413a-a267-c54c5c5fe1b0",
+        "fields": {
+            "message": "3ec95364-1395-49fb-9965-dff9b450ef1b",
+            "participant": 1
+        }
+    },
+    {
+        "model": "Chat.unreadmessage",
+        "pk": "b07b77ce-d28f-4043-9b09-526d1334c3e8",
+        "fields": {
+            "message": "0169b6bf-6ea5-4b3e-9d29-bd1e86592c96",
+            "participant": 1
+        }
+    },
+    {
+        "model": "Chat.unreadmessage",
+        "pk": "b07fade9-add6-42e4-950f-f845320eb8e5",
+        "fields": {
+            "message": "a5dd1def-197b-4cf8-a00b-cf918ede6910",
+            "participant": 1
+        }
+    },
+    {
+        "model": "Chat.unreadmessage",
+        "pk": "9bb9df9b-fe05-4875-8174-2b1804a6848e",
+        "fields": {
+            "message": "1c170732-3771-41f3-be18-81fb1a2e0637",
+            "participant": 1
+        }
+    },
+    {
+        "model": "Chat.unreadmessage",
+        "pk": "aac42804-60e8-4c5a-81b6-62a2822d855f",
+        "fields": {
+            "message": "39bf8ab1-6655-48ad-9a4e-0a4567c3f72e",
+            "participant": 1
+        }
+    },
+    {
+        "model": "Chat.unreadmessage",
+        "pk": "b2f3e2b6-b453-4633-9858-4fcc659ec4b6",
+        "fields": {
+            "message": "c094682e-cb28-4eb5-8c11-64bbe176d007",
+            "participant": 1
+        }
+    },
+    {
+        "model": "Chat.unreadmessage",
+        "pk": "84959ec9-65dc-4969-b8bb-e7099af952bc",
+        "fields": {
+            "message": "a67f2881-3cf0-4120-b0ff-77e7d2e28057",
+            "participant": 1
+        }
+    },
+    {
+        "model": "Chat.unreadmessage",
+        "pk": "70756e84-3e97-412b-85b1-45fe9844fa0c",
+        "fields": {
+            "message": "34173978-cd4b-40bd-8627-55862bd36b90",
+            "participant": 1
+        }
+    },
+    {
+        "model": "Chat.unreadmessage",
+        "pk": "3b54371e-ef21-48e2-b2eb-cf59df148a60",
+        "fields": {
+            "message": "d3b2066c-c573-4639-8799-c6e308aa5ce7",
+            "participant": 1
+        }
+    },
+    {
+        "model": "Chat.unreadmessage",
+        "pk": "176ba811-56e4-4ca2-8d8e-af00ac84ac84",
+        "fields": {
+            "message": "51200695-f233-4cb4-bd92-130b8553e416",
+            "participant": 1
+        }
+    },
+    {
+        "model": "Chat.unreadmessage",
+        "pk": "7161c0f5-9abf-4f97-aa86-bb729b772324",
+        "fields": {
+            "message": "c094682e-cb28-4eb5-8c11-64bbe176d007",
+            "participant": 2
+        }
+    },
+    {
+        "model": "Chat.unreadmessage",
+        "pk": "b92b939c-a945-4a55-95c6-8dad5b1e5126",
+        "fields": {
+            "message": "a67f2881-3cf0-4120-b0ff-77e7d2e28057",
+            "participant": 2
+        }
+    },
+    {
+        "model": "Chat.unreadmessage",
+        "pk": "8649687d-5f87-4137-a339-b5f4b47ed7f6",
+        "fields": {
+            "message": "34173978-cd4b-40bd-8627-55862bd36b90",
+            "participant": 2
+        }
+    },
+    {
+        "model": "Chat.unreadmessage",
+        "pk": "1059eb77-efc0-41dd-b5f3-b6d7f3fe2846",
+        "fields": {
+            "message": "d3b2066c-c573-4639-8799-c6e308aa5ce7",
+            "participant": 2
+        }
+    },
+    {
+        "model": "Chat.unreadmessage",
+        "pk": "816b6815-44e5-421e-ac92-c5e95a4f088f",
+        "fields": {
+            "message": "51200695-f233-4cb4-bd92-130b8553e416",
+            "participant": 2
+        }
+    },
+    {
+        "model": "Chat.unreadmessage",
+        "pk": "d70a70f6-2b5c-473d-bbad-a6ee64e2d04a",
+        "fields": {
+            "message": "688b4639-5bb6-4ab8-8ae5-4368b5f42642",
+            "participant": 5
+        }
+    }
+]

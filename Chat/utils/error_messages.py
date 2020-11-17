@@ -1,0 +1,6 @@
+CHAT_ACCESS_MESSAGE = "You don't have access to this chat or it doesn't exist"
+EMPTY_TEXT_MESSAGE = "Text can't be empty"
+MAX_COUNT_MESSAGE = "The parameter 'count' can't be greater than {}"
+MESSAGES_TYPES_MESSAGE = "The parameter 'messages_type' must be one of the following: ['read', 'unread']"
+POSITIVE_INTEGER_MESSAGE = "The parameter 'count' must be string which contains a non-zero positive integer."
+TEXT_PARAM_MESSAGE = "Data should have the 'text' parameter"

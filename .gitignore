@@ -1,0 +1,10 @@
+__pycache__
+.vscode
+*.sqlite3
+media
+files
+settings.env
+prod-settings.env
+.coverage
+htmlcov
+.idea
